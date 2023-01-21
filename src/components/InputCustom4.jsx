@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 
-const InputCustom2 = forwardRef(({ type = 'text', ...props }, ref) => {
+const InputCustom4 = forwardRef(({ type = 'text', ...props }, ref) => {
     return (
         <input
             ref={ref}
@@ -11,4 +11,4 @@ const InputCustom2 = forwardRef(({ type = 'text', ...props }, ref) => {
     );
 });
 
-export default InputCustom2;
+export default InputCustom4;
